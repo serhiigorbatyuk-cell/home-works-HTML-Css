@@ -1,0 +1,16 @@
+ul {
+  list-style-type: upper-roman;
+}
+
+.letters {
+  list-style-type: lower-alpha;
+}
+.task {
+  font-size: larger;
+}
+li {
+  color: rgb(39, 39, 171);
+}
+li::marker {
+  color: black;
+}

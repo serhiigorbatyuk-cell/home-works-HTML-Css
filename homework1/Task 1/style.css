@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px 13px 40px;
+  background: #f7f7f7;
+  color: #292929;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0 0 40px;
+  color: #403b80;
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-heading,
+.scene-heading,
+.character {
+  color: #788b9b;
+  font-weight: 700;
+}
+
+.section-heading {
+  margin: 0 0 34px;
+  font-size: 29px;
+  line-height: 1.2;
+}
+
+.section-heading + .section-heading {
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+
+.prologue {
+  margin: 0 0 36px;
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+.scene-heading {
+  margin: 0 0 38px;
+  font-size: 29px;
+  line-height: 1.25;
+}
+
+.stage-direction {
+  margin: 0 0 40px;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.character {
+  margin: 0 0 35px;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.dialogue {
+  margin: 0 0 39px;
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 16px 12px 30px;
+  }
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  .section-heading,
+  .scene-heading {
+    font-size: 23px;
+    margin-bottom: 25px;
+  }
+
+  .prologue,
+  .character,
+  .dialogue {
+    font-size: 19px;
+  }
+
+  .prologue {
+    line-height: 1.45;
+    margin-bottom: 28px;
+  }
+
+  .stage-direction {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .character {
+    margin-bottom: 24px;
+  }
+
+  .dialogue {
+    margin-bottom: 30px;
+  }
+}

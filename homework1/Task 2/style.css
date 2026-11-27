@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(180, 180, 180);
+}
+
+.Player-sertion {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.cards-row p {
+  display: inline-block;
+  background-color: rgb(151, 149, 149);
+  padding: 10px;
+  font-size: 22px;
+  margin: 0;
+  margin-right: 8px;
+}
+
+.card-red {
+  color: red;
+}
