@@ -1,3 +1,7 @@
+.task {
+  font-size: larger;
+}
+
 ul {
   list-style-type: upper-roman;
 }
@@ -5,12 +9,13 @@ ul {
 .letters {
   list-style-type: lower-alpha;
 }
-.task {
-  font-size: larger;
-}
+
 li {
-  color: rgb(39, 39, 171);
+  color: rgb(76, 92, 117);
+  font-weight: normal;
 }
+
 li::marker {
   color: black;
+  font-weight: bold;
 }
