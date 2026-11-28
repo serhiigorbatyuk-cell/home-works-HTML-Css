@@ -1,0 +1,121 @@
+:root {
+  --clr-Nutmeg: hsl(14, 45%, 36%);
+  --clr-DarkRaspberry: hsl(332, 51%, 32%);
+
+  --clr-White: hsl(0, 0%, 100%);
+  --clr-RoseWhite: hsl(330, 100%, 98%);
+  --clr-Eggshell: hsl(30, 54%, 90%);
+  --clr-LightGrey: hsl(30, 18%, 87%);
+  --clr-WengeBrown: hsl(30, 10%, 34%);
+  --clr-DarkCharcoal: hsl(24, 5%, 18%);
+
+  --fz--title: 40px;
+  --fz--text: 16px;
+
+  --ff-heading: "Young Serif", serif;
+  --ff-main: "Outfit", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-Eggshell);
+  font-family: var(--ff-main);
+  font-size: var(--fz--text);
+  color: var(--clr-WengeBrown);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  background-color: var(--clr-White);
+  max-width: 710px;
+  width: 100%;
+  margin: 0px 5px 40px;
+  padding: 0px 5px 40px;
+}
+
+.imege-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 0px 4px 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  padding: 24px 5px 40px;
+}
+
+h1 {
+  font-family: var(--ff-heading);
+  font-size: var(--fz--title);
+  color: var(--clr-DarkRaspberry);
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-family: var(--ff-heading);
+  font-size: 28px;
+  color: var(--clr-Nutmeg);
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-family: var(--ff-main);
+  font-size: 20px;
+  color: var(--clr-DarkRaspberry);
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.description {
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.prep-box {
+  background-color: var(--clr-RoseWhite);
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.prep-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.prep-box li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.prep-box li::marker {
+  color: var(--clr-DarkRaspberry);
+}
+
+.section ul {
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.section ol {
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1.5;
+}
