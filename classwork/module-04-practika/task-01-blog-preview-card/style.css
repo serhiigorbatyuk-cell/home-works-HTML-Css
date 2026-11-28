@@ -1,0 +1,70 @@
+:root {
+  --clr-yellow: hsl(47, 88%, 63%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey: hsl(0, 0%, 50%);
+  --clr-black: hsl(0, 0%, 7%);
+
+  --fz--title: 44px;
+  --fz--text: 16px;
+
+  --ff-main: "Figtree", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--clr-yellow);
+  font-size: var(--fz-taxt);
+  font-family: var(--ff-main);
+  margin: 0;
+  min-height: 12px;
+}
+
+.card {
+  margin-top: 180px;
+  margin-inline: auto;
+  max-width: 380px;
+  background-color: var(--clr-white);
+  padding: 32px;
+  border-radius: 24px;
+  border: 1px solid black;
+  box-shadow: 8px 8px 0px black;
+}
+
+.card-imag {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.card-lable {
+  background-color: var(--clr-yellow);
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.card-title {
+  font-size: var(--fz--title);
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.card-title:hover {
+  color: var(--clr-yellow);
+}
+
+.card-footer span {
+  position: relative;
+  top: -10px;
+  font-weight: 800;
+}
+.card-footer img {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
